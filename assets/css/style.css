@@ -1,0 +1,602 @@
+/* public style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+.clearfix {
+  clear: both;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+/*end public style*/
+
+/* start header*/
+.header-content {
+  background-image: url("../img/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+
+.logo {
+  width: 40%;
+  float: left;
+}
+.logo img {
+  width: 18%;
+  padding-left: 10px;
+  margin-right: -55px;
+}
+
+.navbar {
+  padding-top: 16px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.4);
+}
+
+.nav {
+  float: left;
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 5px;
+  
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 12px;
+  padding-top: 13px;
+}
+.nav ul li a {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: "Alegreya", serif;
+}
+.image-restaurant {
+  margin-top: 230px;
+}
+.header-content h1 {
+  font-size: 76px;
+  font-family: "Alegreya", serif;
+  margin-top: 13px;
+  text-transform: capitalize;
+}
+.header-content p {
+  margin-top: 32px;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+.learn-more {
+  padding: 19px 30px;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  background-color: rgb(193, 171, 132);
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(193, 171, 132);
+  font-weight: 800;
+}
+
+.book-visit {
+  padding: 19px 30px;
+  font-size: 16px;
+  font-family: "Alegreya Sans";
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: 800;
+}
+.buttons {
+  margin-top: 60px;
+}
+
+a.learn-more:hover{
+  background-color:white;
+  color:black;
+}
+
+a.book-visit:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+a.list-item:hover {
+  color: rgb(194, 126, 0);
+}
+.scroll {
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 43px;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+}
+.fa-gears {
+  box-sizing: border-box;
+  padding-top: 12px;
+  color: #565555;
+  display: block;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+}
+.fa-cart-shopping {
+  box-sizing: border-box;
+  color: #565555;
+  display: block;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+a.gear :hover {
+  color: #218fe6;
+}
+
+a.cart-shop :hover {
+  color: #218fe6;
+}
+
+/* end header*/
+
+/* start section2*/
+.our-business {
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-color: white;
+}
+.chef {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-left: 40px;
+  margin: auto;
+}
+
+.icon-list i {
+  float: left;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 10px;
+  font-size: 24px;
+  color: white;
+  border: 1px solid rgb(193, 171, 132);
+  border-radius: 100%;
+  background-color: rgb(193, 171, 132);
+}
+
+.element-style {
+  width: 43%;
+  float: left;
+  padding-top: 120px;
+}
+.title {
+  font-size: 23px;
+  font-family: "Alegreya", serif;
+  color: rgb(37, 48, 72);
+}
+.short-bio {
+  font-family: "Dancing Script", "cursive";
+  font-size: 28px;
+  color: rgb(193, 171, 132);
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.about-restaurant {
+  font-size: 18px;
+  font-family: "Alegreya Sans", sans-serif;
+  color: rgba(104, 104, 104, 1);
+}
+
+.last-description {
+  padding-top: 13px;
+  padding-bottom: 30px;
+}
+
+.short-descriptions {
+  padding-top: 13px;
+}
+
+.icon-list .fa-users {
+  font-size: 20px;
+}
+.icon-list li {
+  width: 100%;
+  padding-bottom: 35px;
+}
+
+.icon-list .icon-list-text {
+  font-size: 18px;
+  padding-top: 15px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
+  color: rgba(104, 104, 104, 1);
+}
+/* end section2*/
+
+/*start section3*/
+
+.review-like-us {
+  padding: 90px 0px;
+  background-color: rgb(248, 248, 248);
+  box-sizing: border-box;
+}
+.about-reviews {
+  float: left;
+  width: 38%;
+  margin-left: 100px;
+  box-sizing: border-box;
+}
+.tools-picture {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.tools-picture img {
+  width: 80%;
+}
+.about-reviews h2 {
+  font-family: "Alegreya", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49.68px;
+  color: rgb(37, 48, 72);
+}
+.about-reviews .question p {
+  font-family: "Dancing Script", "cursive";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38.64px;
+  color: rgb(193, 171, 132);
+  padding-bottom: 50px;
+  padding-top: 8px;
+}
+
+.about-reviews .description p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33.48px;
+  color: rgb(104, 104, 104);
+  box-sizing: border-box;
+}
+
+.about-reviews .reviews-list li p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33.48px;
+  color: rgb(104, 104, 104);
+}
+.about-reviews .reviews-list li i {
+  color: rgb(193, 171, 132);
+  float: left;
+  width: 30px;
+  font-size: 18px;
+  line-height: 18px;
+}
+.reviews-list {
+  padding-top: 30px;
+}
+.reviews-list li {
+  padding-bottom: 15px;
+}
+/*end section3*/
+
+/* restaurant picture*/
+.restaurant-picture {
+  background-image: url("../img/shutterstock_280369721.jpg");
+  height: 501px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -180px;
+}
+/* end restaurant picture */
+
+/*start section 4 */
+.our-flag-dishes {
+  text-align: center;
+  padding: 100px 0px;
+  background-color: rgb(248, 248, 248);
+}
+.flags {
+  float: left;
+  width: 29.5%;
+  padding-left: 40px;
+}
+.first-flag-list {
+  padding-bottom: 40px;
+}
+.first-flag-list,
+.second-flag-list {
+  box-sizing: border-box;
+}
+.second-flag-list {
+  padding-bottom: 50px;
+}
+.first-flag-list img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.second-flag-list img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.our-flag-dishes h2 {
+  padding-bottom: 10px;
+  font-family: "Alegreya", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49.68px;
+  color: rgb(37, 48, 72);
+}
+
+#short-description {
+  font-family: "Dancing Script", "cursive";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38.64px;
+  color: rgb(193, 171, 132);
+  padding-bottom: 50px;
+}
+.our-flag-dishes h3 {
+  font-family: "Alegreya", serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28.98px;
+  color: rgb(37, 48, 72);
+  padding-bottom: 15px;
+}
+.our-flag-dishes p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(104, 104, 104);
+  line-height: 33.48px;
+}
+
+.our-flag-dishes a {
+  border: 1px solid rgb(193, 171, 132);
+  padding: 15px 15px;
+  background-color: rgb(193, 171, 132);
+  border-radius: 5%;
+  box-sizing: border-box;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.4px;
+  color: rgb(255, 255, 255);
+}
+.our-flag-dishes a i {
+  padding-left: 5px;
+  font-size: 15px;
+}
+.full-menu-button {
+  padding-top: 30px;
+}
+/*end section 4 */
+.back-ground {
+  background-image: url("../img/background.jpg");
+  height: 654.31px;
+  background-size: cover;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position-y: -300px;
+  
+}
+/* start location section */
+.location {
+  padding: 85px;
+}
+.our-location-contact {
+  width: 40%;
+  float: left;
+  padding-right: 40px;
+  padding-left: 30px;
+}
+.location-description {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.our-contact {
+  margin-bottom: 30px;
+}
+.location h2 {
+  font-family: "Alegreya", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49.68px;
+  color: rgb(37, 48, 72);
+}
+.location p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33.48px;
+  color: rgb(104, 104, 104);
+}
+.location ul li p {
+  padding-top: 8px;
+}
+.location i {
+  float: left;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: rgb(193, 171, 132);
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  margin-right: 15px;
+  color: white;
+}
+
+.location li {
+  box-sizing: border-box;
+  padding-bottom: 25px;
+}
+
+.map{
+  float: left;
+  width: 50%;
+  padding-left: 50px;
+}
+
+
+/* end location section */
+
+/*start footer */
+.footer {
+  padding: 20px 0px;
+  background-color: #403d38;
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-family: "Alegreya", serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+
+  padding-bottom: 20px;
+}
+
+.lists {
+  float: left;
+  width: 25%;
+}
+#min-bio {
+  padding-top: 15px;
+}
+
+.about-us-list {
+  padding-top: 10px;
+}
+.footer li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  width: 80%;
+  position: relative;
+  padding-top: 15px;
+}
+
+.footer p {
+  line-height: 33.48px;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  color: rgb(150, 150, 150);
+  position: relative;
+  bottom: 5px;
+}
+.footer a {
+  line-height: 33.48px;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  color: rgb(150, 150, 150);
+  position: relative;
+  bottom: 5px;
+}
+a.contact-form:hover {
+  color: rgb(224, 224, 224);
+}
+
+.footer li i {
+  width: 5%;
+  float: left;
+  position: relative;
+  top: 5px;
+  font-size: 10px;
+  color: rgb(150, 150, 150);
+}
+.paragraph-location-space ul li i {
+  font-size: 18px;
+  position: relative;
+  top: 0px;
+  width: 9%;
+}
+.paragraph-location-space ul li {
+  padding-bottom: 8px;
+}
+.footer-main {
+  background-color: rgba(64, 61, 56, 0.4);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer .contact-details ul {
+  background-image: url("../img/contact-details-map.png");
+  background-repeat: no-repeat;
+}
+
+.footer .none-border {
+  border: none;
+}
+
+.footer-bottom {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: rgb(53, 51, 48);
+  text-align: center;
+}
+
+.copy-right {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(119, 119, 119);
+  line-height: 33.48px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+.footer-bottom i {
+  background-color: rgb(72, 69, 64);
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 100%;
+  font-size: 23px;
+  color: #8c8a86;
+}
+
+a.facebook :hover {
+  background-color: rgb(60, 87, 145);
+  color: rgb(246, 246, 245);
+}
+a.instagram :hover {
+  background-color: rgb(20, 86, 134);
+  color: rgb(252, 252, 252);
+}
+a.tumblr :hover {
+  background-color: rgb(50, 80, 109);
+  color: rgb(255, 255, 255);
+}
+a.twitter :hover {
+  background-color: rgb(6, 164, 223);
+  color: rgb(255, 255, 255);
+}
+
+/* end footer */

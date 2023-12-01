@@ -1,0 +1,184 @@
+@media screen and (max-width: 992px) {
+  .nav {
+    width: 60%;
+    margin-left: 0px;
+  }
+
+  .header-content .logo img {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+
+  .header-content h1 {
+    font-size: 36px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .header-content p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .logo {
+    width: 13%;
+    margin-top: 8px;
+  }
+
+  .header-content .logo img {
+    width: 100%;
+  }
+
+  .image-restaurant {
+    margin-top: 250px;
+  }
+  .image-restaurant{
+    margin-top: 150px;
+  }
+
+  .nav {
+    width: 64%;
+   padding-left: 60px;
+  }
+.nav ul li a {
+    font-size: 10px;
+}
+  .nav ul li {
+    padding: 8px 5px;
+  }
+
+  .buttons {
+    margin-top: 45px;
+  }
+
+  .learn-more {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+
+  .book-visit {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+
+  .our-business .chef {
+    width: 100%;
+    padding-left: 0px;
+
+  }
+  .our-business .chef img {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+.element-style{
+width: 100%;
+}
+.tools-picture{
+    width: 100%;
+    
+    
+    margin-left: 0px;
+}
+.tools-picture img{
+    width: 100%;
+    
+}
+.review-like-us .about-reviews {
+    width: 100%;
+   
+    margin: 0px;
+}
+
+.our-flag-dishes{
+    padding-top:50px;
+   
+}
+.our-flag-dishes .flags{
+    width: 100%;
+padding-left: 0px;
+}
+#short-description{
+padding-bottom: 15px;
+
+}
+.our-flag-dishes .first-flag-list {
+padding-bottom:0px;
+}   
+.our-flag-dishes img{
+    padding-top: 15px;
+} 
+.location{
+    padding: 40px 0px;
+}
+.back-ground{
+    height: 250.31px;
+    
+     background-position-y: 0px;
+
+}
+.restaurant-picture{
+    height: 278px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+.location h2{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.location p{
+    font-size:16px;
+}
+.our-contact{
+    padding-top: 12px;
+}
+
+.location .our-location-contact{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.location-description {
+    margin: 0px;
+}
+.location .map{
+  padding-left: 0px;
+  float: none;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 75vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer p{
+  position:inherit;
+}
+.footer-bottom img{
+  width: 100%;
+}
+.footer .lists{
+    display: block;
+}
+.lists{
+    width: 100%;
+    padding-right: 0px;
+   
+}
+.footer h3 {
+    padding-top: 35px;
+}
+.footer-about-us-list {
+    width: 100%;
+}
+.footer li {
+    width: 100%
+}
+}
